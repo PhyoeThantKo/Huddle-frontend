@@ -14,7 +14,7 @@ body{
 #logo{
     width: 15%;
     padding-top: 3%;
-    padding-left: 5%;
+    padding-left: 6%;
 }
 
 
@@ -31,9 +31,9 @@ body{
   display: inline-flex;
   fill: currentcolor;
   font-family: "Google Sans",Roboto,Arial,sans-serif;
-  font-size: 18px;
+  font-size: 1.1rem;
   font-weight: 500;
-  height: 48px;
+  height: 3rem;
   justify-content: center;
   letter-spacing: .25px;
   line-height: normal;
@@ -138,7 +138,7 @@ body{
 
 #left-welcome{
   padding-top: 10%;
-  padding-left: 5%;
+  padding-left: 6%;
   width: 45%;
 }
 
@@ -158,7 +158,8 @@ body{
 
 #right-welcome{
   width: 65%;
-  padding-left: 5%;
+  margin-right: -17%;
+
   padding-top: 5%;
 }
 
@@ -219,31 +220,3 @@ body{
   color: hsl(192, 100%, 9%);
 }
 
-
-#overlap-card{
-  width: 50%;
-  height: 33vh;
-  border-radius: 25px;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;;
-}
-
-.overlap-content{
-  padding-top: 10%;
-  padding-left: 18%;
-}
-
-.overlap-content h1{
-  font-weight: 600;
-  font-size: 2rem;
-  width: 100%;
-}
-
-.overlap-content button{
-  margin-left: 13%;
-  width: 50%;
-  height: 80px;
-  border-radius: 40px;
-  margin-top: 7%;
-}
