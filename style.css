@@ -12,7 +12,7 @@ body{
 }
 
 #logo{
-    width: 15%;
+    min-width: 15%;
     padding-top: 3%;
     padding-left: 6%;
 }
@@ -33,7 +33,7 @@ body{
   font-family: "Google Sans",Roboto,Arial,sans-serif;
   font-size: 1.1rem;
   font-weight: 500;
-  height: 3rem;
+  min-height: 3rem;
   justify-content: center;
   letter-spacing: .25px;
   line-height: normal;
@@ -47,7 +47,7 @@ body{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 10%;
+  min-width: 10%;
   will-change: transform,opacity;
   z-index: 0;
   float: right;
@@ -84,7 +84,7 @@ body{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 32%;
+  min-width: 32%;
   will-change: transform,opacity;
   z-index: 0;
   margin-top: 4%;
@@ -139,7 +139,9 @@ body{
 #left-welcome{
   padding-top: 10%;
   padding-left: 6%;
-  width: 45%;
+  min-width: 45%;
+  max-width: 50%;
+  
 }
 
 #left-welcome h1{
@@ -157,14 +159,17 @@ body{
 }
 
 #right-welcome{
-  width: 65%;
-  margin-right: -17%;
-
+  min-width: 55%;
+  max-width: 60%;
   padding-top: 5%;
 }
 
+#right-welcome img{
+  padding-left: 25%;
+}
+
 #mockup{
-  width: 90%;
+  max-width: 90%;
 }
 
 
@@ -194,13 +199,13 @@ body{
 }
 
 .card-left{
-  width: 65%;
+  max-width: 40%;
   padding-top: 10%;
   padding-left: 8%;
 }
 
 .card-img{
-  width: 60%;
+  max-width: 60%;
   padding-left: 25%;
   padding-top: 6%;
 
@@ -220,3 +225,10 @@ body{
   color: hsl(192, 100%, 9%);
 }
 
+#overlap-card{
+  background-color: black;
+}
+
+#foot{
+  background-color: blue;
+}
