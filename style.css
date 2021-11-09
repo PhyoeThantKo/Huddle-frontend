@@ -70,7 +70,7 @@ body{
   font-family: "Google Sans",Roboto,Arial,sans-serif;
   font-size: 18px;
   font-weight: 500;
-  height: 48px;
+  height: 53px;
   justify-content: center;
   letter-spacing: .25px;
   line-height: normal;
@@ -133,14 +133,14 @@ body{
 
 #welcome{
   display: flex;
+  width: 100%;
   /*padding-top: 8%;*/
 }
 
 #left-welcome{
   padding-top: 10%;
   padding-left: 6%;
-  min-width: 45%;
-  max-width: 50%;
+  width: 45%;
   
 }
 
@@ -159,17 +159,14 @@ body{
 }
 
 #right-welcome{
-  min-width: 55%;
-  max-width: 60%;
-  padding-top: 5%;
+  padding-top: 6%;
+  width: 45%;
 }
 
-#right-welcome img{
-  padding-left: 25%;
-}
 
 #mockup{
-  max-width: 90%;
+  padding-left: 15%;
+  width: 90%;
 }
 
 
@@ -225,10 +222,46 @@ body{
   color: hsl(192, 100%, 9%);
 }
 
+/*one overlapping card*/
+
+#container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 #overlap-card{
-  background-color: black;
+  width: 45%;
+  border-radius: 19px;
+  height: 33vh;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*opacity: 0.8;*/
+  z-index: 9999;
+}
+
+#overlap-card h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+#overlap-card button{
+  height:20%;
+  min-width: 40%;
+  border-radius: 40px;
 }
 
 #foot{
-  background-color: blue;
+  margin-left: 5%;
+  width: 100%;
+  margin: 0;
+  background-color: hsl(192, 100%, 9%);
+  height: 50vh;
+  margin-top: -5%;
 }
