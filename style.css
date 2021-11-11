@@ -249,6 +249,7 @@ body{
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 2rem;
+  text-align: center;
 }
 
 #overlap-card button{
@@ -262,6 +263,82 @@ body{
   width: 100%;
   margin: 0;
   background-color: hsl(192, 100%, 9%);
-  height: 50vh;
+  height: 58vh;
   margin-top: -5%;
+  line-height: 2.5rem;
 }
+
+#footerlogo{
+  width: 10%;
+  padding-top: 7%;
+  padding-left: 6%;
+}
+
+#flexfoot{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-family:'Poppins', sans-serif;
+  color: white;
+
+}
+
+#column-one{
+  height: 25vh;
+  width: 28%;
+  display: grid;
+  place-items: top;
+  text-align: left;
+}
+
+#column-two{
+  height: 25vh;
+  width: 15%;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+
+#column-three{
+  height: 25vh;
+  width: 17%;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+
+#column-four{
+  height: 25vh;
+  width: 15%;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+
+ul li img{
+  width: 4%;
+}
+
+#column-two ul li a , #column-three ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+#column-two ul li a:hover , #column-three ul li a:hover{
+  border-bottom: 1px solid white;
+}
+
+.icon{
+  height: 5vh;
+  width: 60px;
+  padding-right: 2%;
+  padding-left: 2%;
+  border-radius: 20px;
+}
+
+.icon:hover {
+  background-color: rgb(255, 38, 183);
+  transform: scale(1.1);
+} 
