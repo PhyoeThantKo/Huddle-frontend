@@ -33,7 +33,7 @@ body{
   font-family: "Google Sans",Roboto,Arial,sans-serif;
   font-size: 1.1rem;
   font-weight: 500;
-  min-height: 3rem;
+  height: 3rem;
   justify-content: center;
   letter-spacing: .25px;
   line-height: normal;
@@ -342,3 +342,69 @@ ul li img{
   background-color: rgb(255, 38, 183);
   transform: scale(1.1);
 } 
+
+/*mobile*/
+
+@media only screen and (max-width:600px){
+
+  #header{
+    padding-top: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(images/bg-hero-mobile.svg) no-repeat center;
+    background-size: cover;
+  }
+
+  #logo{
+    padding-top: 4%;
+    max-width: 35%;
+    max-height: 20vh;
+  }
+
+  .button-1{
+    height: 4vh;
+    width: 36%;
+  }
+
+  #welcome{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #left-welcome{
+    padding-top: 20%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+  }
+
+  #left-welcome h1{
+
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+
+  #left-welcome p{
+    font-family:'Poppins', sans-serif;
+    font-size: 1.1rem;
+    padding-top: 5%;
+  }
+
+  .button-2{
+    margin-top: 6%;
+    width: 70%;
+  }
+
+  #right-welcome{
+    width: 100%;
+  }
+  #mockup{
+    margin-top: 8%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }  
+
+}
