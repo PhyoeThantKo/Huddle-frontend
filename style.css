@@ -202,7 +202,7 @@ body{
 }
 
 .card-img{
-  width: 60%;
+  width: 440px;
   padding-left: 25%;
   padding-top: 6%;
 
@@ -222,6 +222,9 @@ body{
   color: hsl(192, 100%, 9%);
 }
 
+.middle .card-right{
+  margin-right: 100px;
+}
 /*one overlapping card*/
 
 #container{
