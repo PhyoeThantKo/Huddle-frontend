@@ -204,7 +204,7 @@ body{
 .card-img{
   width: 440px;
   padding-left: 25%;
-  padding-top: 6%;
+  padding-top: 5%;
 
 }
 
@@ -466,6 +466,10 @@ only screen and (min-device-pixel-ratio: 1.5){
   
   .middle{
       flex-direction: column;
+  }
+
+  .middle .card-right{
+    margin-right: 15px;
   }
   .pmiddle{
     margin-bottom: 12%;
